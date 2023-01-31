@@ -297,7 +297,7 @@ max_phrase_length: 1         # 不生成詞彙
 㔑	shhspszhzhnhnphhszp
 㔒	szspsnhhhshszpzszhsz
 㔓	phszp
-㔔	zpszhz
+㔔	zpszhq
 㔕	phhzzp
 㔖	zpszhz
 㔗	zhzpszp
@@ -1736,7 +1736,7 @@ max_phrase_length: 1         # 不生成詞彙
 㪰	nhpnnphspn
 㪱	nhpnpzszpnhpn
 㪲	nnhsz
-㪳	nnhsz
+㪳	nnhsq
 㪴	hhpznnhs
 㪵	nphhsnnhs
 㪶	hpszhhnnhs
@@ -1757,7 +1757,7 @@ max_phrase_length: 1         # 不生成詞彙
 㫅	nhzppnhhps
 㫆	nhzppnzpn
 㫇	nhzppnnnz
-㫈	nhzppnnnz
+㫈	nhzppnnnq
 㫉	nhzppzhpzz
 㫊	nhzpphhszhz
 㫋	nhzpphszhsh
@@ -75030,7 +75030,7 @@ max_phrase_length: 1         # 不生成詞彙
 # 以上詞條源於CNS11643的筆順資料，包括了用臺灣標準字形顯示的中日韓統一表意文字擴展A-D區字符。
 # 以下詞條繼承自原碼表（已去重），用以兼容大陸規範字形。
 
-〇	z
+〇	q
 㐀	shshh
 㐆	ppzhhz
 㐉	hsz

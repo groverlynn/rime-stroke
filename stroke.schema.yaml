@@ -48,17 +48,23 @@ engine:
 speller:
   alphabet: "abcdefghijklmnopqrstuvwxyz"
   delimiter: " '"
+  algebra:
+    - xform/n/d/               # 捺歸入點屬
+    - derive/q/z/              # 折筆代圈
 
 menu:
   page_size: 9
 
 translator:
   dictionary: stroke
+  strict_spelling: false
   preedit_format:
-    - xlit/hspnz/一丨丿丶乙/
+#   - xlit/hspnzq/㇐㇑㇒㇏㇠㇣/   # CJK筆畫（橫豎撇捺折圈）
+    - xlit/hspdzq/⼀⼁⼃⼂⼄⼄/   # 康熙部首（橫豎撇點折）
   comment_format:
     - xform/~//
-    - xlit/hspnz/一丨丿丶乙/
+#   - xlit/hspnzq/㇐㇑㇒㇏㇠㇣/   # CJK筆畫（橫豎撇捺折圈）
+    - xlit/hspdzq/⼀⼁⼃⼂⼄⼄/   # 康熙部首（橫豎撇點折）
 
 abc_segmentor:
   extra_tags:
@@ -74,7 +80,8 @@ reverse_lookup:
     - xform/([nl])ue/$1üe/
     - xform/([jqxy])v/$1u/
   comment_format:
-    - xlit/hspnz/一丨丿丶乙/
+#   - xlit/hspnzq/㇐㇑㇒㇏㇠㇣/     # CJK筆畫（橫豎撇捺折圈）
+    - xlit/hspdzq/⼀⼁⼃⼂⼄⼄/     # 康熙部首（橫豎撇點折）
 
 punctuator:
   import_preset: default
